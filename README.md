@@ -44,15 +44,13 @@ No comp data for a new role? Claude will estimate a midpoint based on level and 
 
 1. Create a folder for your headcount planning inputs (wherever you keep your project files)
 2. Drop in your roster export, a hiring priorities text file, and your ARR scenarios
-3. Open Cowork, point it at that folder, and say something like:
-
-   > "Build me a headcount plan from the files in this folder."
+3. Open Cowork, point it at that folder, and either type `/headcount-planning` or say something like "build me a headcount plan from the files in this folder." Both work.
 
    Or more specific:
 
    > "Model two hiring scenarios — 18% and 32% ARR growth — using the roster and open roles I uploaded."
 
-Claude will read what's there, ask about anything critical that's missing, and build the model. It'll tell you exactly what it assumed and what needs your eyes before you share it.
+Claude reads what's in the folder, builds with what it has, and only asks if something critical is genuinely missing. It'll tell you exactly what it assumed and what needs your eyes before you share it.
 
 ---
 
